@@ -20,7 +20,7 @@ RealityInfo = {
       Tilemap = {
         Type = 'Fixed',
         Format = 'TMJ',
-        TxId = 'koH7Xcao-lLr1aXKX4mrcovf37OWPlHW76rPQEwCMMA', -- TxId of the tilemap in TMJ format
+        TxId = 'DRDcUfCFETsNnn4oBkubif4k_qeMFxto__DAuUWjf-0', -- TxId of the tilemap in TMJ format
         -- Since we are already setting the spawn in the middle, we don't need this
         -- Offset = { -10, -10 },
       },
