@@ -16,6 +16,13 @@ LastRunStageTimestamp = LastRunStageTimestamp or 0
 
 HomePosition = HomePosition or { 9,9 }
 
+Send({
+  Target = TARGET_WORLD_PID,
+  Tags = {
+    Action = 'Reality.EntityFix',
+  },
+})
+
 function Register()
   print("Registering")
   Send({
