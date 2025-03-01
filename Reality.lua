@@ -2,7 +2,7 @@ local json = require('json')
 local sqlite3 = require('lsqlite3')
 
 RealityDb = RealityDb or sqlite3.open_memory()
-RealityDbAdmin = RealityDbAdmin or require('DbAdmin').new(RealityDb)
+RealityDbAdmin = RealityDbAdmin or require("@rakis/DbAdmin").new(RealityDb)
 
 --#region Initialization
 
